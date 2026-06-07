@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Syne:wght@500;700&display=swap);
+
+:root {
+    --bg: #0d0e10;
+    --header-bg: #111318;
+    --header-border: rgba(80, 255, 160, 0.15);
+    --accent: #50ffa0;
+    --accent-dim: rgba(80, 255, 160, 0.2);
+    --text-primary: #e8ead0;
+    --text-muted: rgba(80, 255, 160, 0.5);
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-display: 'Syne', sans-serif;
+}
+
+[data-theme="light"] {
+    --bg: #f0f2ed;
+    --header-bg: #e8ebe4;
+    --header-border: rgba(0, 120, 60, 0.2);
+    --accent: #007a3c;
+    --accent-dim: rgba(0, 120, 60, 0.15);
+    --text-primary: #1a1c18;
+    --text-muted: rgba(0, 100, 50, 0.5);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: var(--bg);
+    font-family: var(--font-display);
+    transition: background 0.25s;
+}
+
+.header {
+    height: 56px;
+    width: 100%;
+    background: var(--header-bg);
+    border-bottom: 1px solid var(--header-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-dim) 30%, var(--accent-dim) 70%, transparent);
+    pointer-events: none;
+}
+
+.wordmark {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+    color: var(--text-primary);
+}
+
+.wordmark span {color: var(--accent);}
+
+.status-indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.1rem;
+}
+
+.status-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+    animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0.3;}
+}
+
+.theme-toggle {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: 0.5px solid var(--accent-dim);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    color: var(--accent);
+    font-size: 16px;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent);
+    background: var(--accent-dim);
+}
