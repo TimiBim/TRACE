@@ -1,0 +1,11 @@
+# KiCad (hardware folder)
+hardware/**/*-backups/
+hardware/**/*.bak
+hardware/**/*.kicad_sch-bak
+hardware/**/*.kicad_pcb-bak
+hardware/**/fp-info-cache
+hardware/**/*.000
+hardware/**/*.net
+hardware/**/~*.lck
+hardware/**/_autosave-*
+hardware/**/RP2350PDF.pdf
