@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogicAnalyzer</title>
+    <link rel="stylesheet" href="../styles/logicAnalyzerStyle.css">
+    <link rel="stylesheet" href="../styles/mainStyle.css">
+    <link rel="stylesheet" href="../styles/tabStyle.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="js/graph.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="wordmark">TR<span>A</span>CE</div>
+        <div class="status-indicator">
+            <div class="status-dot"></div>
+            <span>READY</span>
+        </div>
+        <button class="theme-toggle" id="themeBtn" aria-label="Toggle theme">☽</button>
+    </div>
+
+    <div class="sub-header">
+        <a class="tab" href="../index.html">Overview</a>
+        <a class="tab" href="analog.html">Analog</a>
+        <a class="tab" href="digital.html">Digital</a>
+        <a class="tab" href="instruments.html">Instruments</a>
+        <a class="tab" href="system.html">System</a>
+    </div>
+
+    <div class="sub-sub-header">
+        <div class="sub-tab">I²C</div>
+    </div>
+
+    <div class="chart-container"><canvas id="ch1"></canvas></div>
+    <div class="chart-container"><canvas id="ch2"></canvas></div>
+    <div class="chart-container"><canvas id="ch3"></canvas></div>
+    <div class="chart-container"><canvas id="ch4"></canvas></div>
+    <div class="chart-container"><canvas id="ch5"></canvas></div>
+    <div class="chart-container"><canvas id="ch6"></canvas></div>
+    <div class="chart-container"><canvas id="ch7"></canvas></div>
+    <div class="chart-container"><canvas id="ch8"></canvas></div>
+    
+</body>
+</html>
