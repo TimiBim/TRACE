@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "logicAnalyzerPCB.kicad_pro",
+    "filename": "TRACE_PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,18 +627,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "logicAnalyzerPCB.kicad_sch",
-        "name": "Root",
+        "filename": "TRACE_PCB.kicad_sch",
+        "name": "TRACE_PCB",
         "uuid": "60e40069-ebc5-410a-af57-87d1e8a39a0f"
       }
     ],
-    "used_designators": "P2,R65-66,#PWR157,#PWR166-168",
+    "used_designators": "C91-96,R67-71,J11-20,D5-8,#PWR1,#PWR145,#PWR164,#PWR169-198,U20,H1-4",
     "variants": []
   },
   "sheets": [
     [
       "60e40069-ebc5-410a-af57-87d1e8a39a0f",
-      "Root"
+      "TRACE_PCB"
     ],
     [
       "e4c0fdc9-df27-45c9-ba88-a79224b37f7d",

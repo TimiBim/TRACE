@@ -5947,7 +5947,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 10.16) (xy -19.05 10.16)
+			(xy -16.51 -2.54) (xy -7.62 -2.54)
 		)
 		(stroke
 			(width 0)
@@ -6317,7 +6317,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 5.08) (xy -20.32 5.08)
+			(xy -16.51 -7.62) (xy -8.89 -7.62)
 		)
 		(stroke
 			(width 0)
@@ -6607,7 +6607,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 -5.08) (xy -24.13 -5.08)
+			(xy -16.51 -17.78) (xy -12.7 -17.78)
 		)
 		(stroke
 			(width 0)
@@ -6737,7 +6737,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 -2.54) (xy -24.13 -2.54)
+			(xy -16.51 -15.24) (xy -12.7 -15.24)
 		)
 		(stroke
 			(width 0)
@@ -6837,7 +6837,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 7.62) (xy -19.05 7.62)
+			(xy -16.51 -5.08) (xy -7.62 -5.08)
 		)
 		(stroke
 			(width 0)
@@ -7257,7 +7257,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 0) (xy -13.97 0)
+			(xy -16.51 -12.7) (xy -2.54 -12.7)
 		)
 		(stroke
 			(width 0)
@@ -7467,7 +7467,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 2.54) (xy -13.97 2.54)
+			(xy -16.51 -10.16) (xy -2.54 -10.16)
 		)
 		(stroke
 			(width 0)
@@ -7506,7 +7506,7 @@
 		(uuid "f9796648-8ad7-4d2d-ae90-4f8a2b0bb262")
 	)
 	(label "SDA"
-		(at -24.13 -2.54 0)
+		(at -12.7 -15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7518,7 +7518,7 @@
 		(uuid "01e69650-2de4-4009-a4d6-15774ce93999")
 	)
 	(label "~{CS_DigiPot}"
-		(at -13.97 2.54 180)
+		(at -2.54 -10.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7643,7 +7643,7 @@
 		(uuid "4d6dd45e-37b3-4f31-b5cb-1775bd7256c5")
 	)
 	(label "~{CS_DigiPot}"
-		(at -13.97 0 180)
+		(at -2.54 -12.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7674,7 +7674,7 @@
 		(uuid "73d58cf9-10bf-449a-a61a-e70d838c51b3")
 	)
 	(label "SCL"
-		(at -24.13 -5.08 0)
+		(at -12.7 -17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7696,7 +7696,7 @@
 		(uuid "845bf33f-f512-4778-b045-6fac93078039")
 	)
 	(label "MISO"
-		(at -19.05 10.16 180)
+		(at -7.62 -2.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7706,7 +7706,7 @@
 		(uuid "8aab6d89-ddab-48ba-84e2-e04ab74f01f5")
 	)
 	(label "MOSI"
-		(at -19.05 7.62 180)
+		(at -7.62 -5.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7758,7 +7758,7 @@
 		(uuid "dc6e7513-3fee-4f63-a655-4010166b2373")
 	)
 	(label "SCK"
-		(at -20.32 5.08 180)
+		(at -8.89 -7.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7781,7 +7781,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at -27.94 7.62 180)
+		(at -16.51 -5.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7792,7 +7792,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at -27.94 -2.54 180)
+		(at -16.51 -15.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7803,7 +7803,7 @@
 	)
 	(hierarchical_label "~{CS_AD9833}"
 		(shape input)
-		(at -27.94 2.54 180)
+		(at -16.51 -10.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7814,7 +7814,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at -27.94 -5.08 180)
+		(at -16.51 -17.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7825,7 +7825,7 @@
 	)
 	(hierarchical_label "~{CS_DigiPot}"
 		(shape input)
-		(at -27.94 0 180)
+		(at -16.51 -12.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7836,7 +7836,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at -27.94 5.08 180)
+		(at -16.51 -7.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7847,7 +7847,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at -27.94 10.16 180)
+		(at -16.51 -2.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7930,7 +7930,7 @@
 			(uuid "d182fad3-495b-4177-b65d-a72d2115b31b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C29")
 					(unit 1)
@@ -8010,7 +8010,7 @@
 			(uuid "653adea4-015d-4d5c-be33-21cad8a151e9")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R13")
 					(unit 1)
@@ -8095,7 +8095,7 @@
 			(uuid "2ad78448-820c-483a-a9c4-313be95fe350")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "JP1")
 					(unit 1)
@@ -8177,7 +8177,7 @@
 			(uuid "89073dd9-2712-4e20-9a1d-8f16c2bf8013")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C18")
 					(unit 1)
@@ -8275,7 +8275,7 @@
 			(uuid "2bf242b6-8986-4ae2-8dbe-be6186261383")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U5")
 					(unit 2)
@@ -8355,7 +8355,7 @@
 			(uuid "9b064380-5afb-4a34-a835-6410aabe91c1")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R31")
 					(unit 1)
@@ -8433,7 +8433,7 @@
 			(uuid "ac98bb56-e753-41e9-9d23-d704a59b6b8a")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR064")
 					(unit 1)
@@ -8515,7 +8515,7 @@
 			(uuid "be5c3e66-1e42-4228-b669-8c26d7a03fb1")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C10")
 					(unit 1)
@@ -8593,7 +8593,7 @@
 			(uuid "46a9c81e-ad66-4f55-95c5-2843862fe739")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR018")
 					(unit 1)
@@ -8670,7 +8670,7 @@
 			(uuid "739155fc-7a29-470f-9140-cd5b42c9d01f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR020")
 					(unit 1)
@@ -8748,7 +8748,7 @@
 			(uuid "b547357a-3e02-419c-850d-37a695e7ba9e")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR029")
 					(unit 1)
@@ -8826,7 +8826,7 @@
 			(uuid "4fafcbb7-2d0a-485a-9b47-b79bf48661ea")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR05")
 					(unit 1)
@@ -8904,7 +8904,7 @@
 			(uuid "4d6e68bb-8bff-40eb-b1ff-e0060633a5f0")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR068")
 					(unit 1)
@@ -8981,7 +8981,7 @@
 			(uuid "56e3720e-c2b0-47d6-bd04-3be4392cbb56")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR078")
 					(unit 1)
@@ -9063,7 +9063,7 @@
 			(uuid "80874260-7950-4fbe-9bee-14ee01c6fa27")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C57")
 					(unit 1)
@@ -9161,7 +9161,7 @@
 			(uuid "5d9b2860-39d9-487a-9577-2584797584e2")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U8")
 					(unit 1)
@@ -9241,7 +9241,7 @@
 			(uuid "c641218d-184c-4682-aa55-1a7bbe8ffc1f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R21")
 					(unit 1)
@@ -9323,7 +9323,7 @@
 			(uuid "ab31d7eb-5ffb-4a39-ad49-7b9dcc2a33f7")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C40")
 					(unit 1)
@@ -9414,7 +9414,7 @@
 			(uuid "fa6190d5-0fd1-42c3-b2af-b3e8f0bb69f5")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "D3")
 					(unit 1)
@@ -9492,7 +9492,7 @@
 			(uuid "3d528ea8-880a-4ee9-9aaf-a1eb973fddcf")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR062")
 					(unit 1)
@@ -9571,7 +9571,7 @@
 			(uuid "9a5bd113-3027-481a-940e-85e03aead78a")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR016")
 					(unit 1)
@@ -9650,7 +9650,7 @@
 			(uuid "babbb0ce-da46-41d3-b6aa-59349d1628b6")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR031")
 					(unit 1)
@@ -9728,7 +9728,7 @@
 			(uuid "ecde1d3f-f00d-4094-88c9-f9e6cfbe448f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR051")
 					(unit 1)
@@ -9806,7 +9806,7 @@
 			(uuid "3b8f8e87-d903-4891-969b-543bf617dfb7")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR069")
 					(unit 1)
@@ -9883,7 +9883,7 @@
 			(uuid "eaeed9f7-68f5-4090-8246-2e13a0e36a16")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR087")
 					(unit 1)
@@ -9981,7 +9981,7 @@
 			(uuid "2bf242b6-8986-4ae2-8dbe-be6186261381")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U7")
 					(unit 1)
@@ -10058,7 +10058,7 @@
 			(uuid "f39e4637-ed8b-4aab-b8b2-bf7760cc73a0")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR011")
 					(unit 1)
@@ -10136,7 +10136,7 @@
 			(uuid "bd0133e4-6221-486d-b908-bdf1f9cebab2")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR025")
 					(unit 1)
@@ -10214,7 +10214,7 @@
 			(uuid "d6fb8dc4-7af2-4789-a67b-6d869cfa70b9")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR07")
 					(unit 1)
@@ -10292,7 +10292,7 @@
 			(uuid "4c785dab-003c-41a5-b42f-83cf0d47c49e")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR058")
 					(unit 1)
@@ -10372,7 +10372,7 @@
 			(uuid "d6c93f6b-6315-409a-b59d-eb0cf3e65d8b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R19")
 					(unit 1)
@@ -10453,7 +10453,7 @@
 			(uuid "9bb5e001-4631-4b85-a07d-9e3954c6259d")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C11")
 					(unit 1)
@@ -10535,7 +10535,7 @@
 			(uuid "5eef51fc-890a-4c67-8155-e6baf48f3814")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R15")
 					(unit 1)
@@ -10615,7 +10615,7 @@
 			(uuid "036c72f0-07fe-4627-a5c2-04110adb6085")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R33")
 					(unit 1)
@@ -10693,7 +10693,7 @@
 			(uuid "ab1d0906-8eed-49ed-ba41-2416aaedce93")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "J4")
 					(unit 1)
@@ -10770,7 +10770,7 @@
 			(uuid "31ddc0a4-93da-47dd-9e3b-22402dd5075c")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR08")
 					(unit 1)
@@ -10847,7 +10847,7 @@
 			(uuid "b116e098-d976-476f-841e-546e7aac69e3")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR081")
 					(unit 1)
@@ -10924,7 +10924,7 @@
 			(uuid "be5729c3-eebf-4c03-a496-3d80cdd71bd3")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR083")
 					(unit 1)
@@ -11004,7 +11004,7 @@
 			(uuid "13da4cf3-6a7b-4906-9a97-8da69548dd6c")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R18")
 					(unit 1)
@@ -11084,7 +11084,7 @@
 			(uuid "29ea2fe5-0391-42b0-bd5f-db6daa069815")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R20")
 					(unit 1)
@@ -11162,7 +11162,7 @@
 			(uuid "3a650974-266e-4d01-b955-3546fccfcb66")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR010")
 					(unit 1)
@@ -11240,7 +11240,7 @@
 			(uuid "3f7ca170-78e7-4db6-9a5a-4dbe0be23350")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR026")
 					(unit 1)
@@ -11318,7 +11318,7 @@
 			(uuid "dc2d961e-7d22-45ce-a417-987218d4e92f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR014")
 					(unit 1)
@@ -11396,7 +11396,7 @@
 			(uuid "17f75dbe-2d46-4bf9-a036-16377663ced0")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR036")
 					(unit 1)
@@ -11474,7 +11474,7 @@
 			(uuid "118110e3-3584-47b5-8fbf-763c96e4aa09")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR053")
 					(unit 1)
@@ -11556,7 +11556,7 @@
 			(uuid "724e442c-2752-424b-ad29-c9767e75c9dd")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C21")
 					(unit 1)
@@ -11638,7 +11638,7 @@
 			(uuid "bafdefa0-75c7-450a-9ac0-bc70179b64ec")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C30")
 					(unit 1)
@@ -11720,7 +11720,7 @@
 			(uuid "6f8f22a9-9950-427a-b4d4-a9064435112b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C54")
 					(unit 1)
@@ -11798,7 +11798,7 @@
 			(uuid "ea92ba7a-421c-424c-8c84-76680855712f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR034")
 					(unit 1)
@@ -11878,7 +11878,7 @@
 			(uuid "f03e34ea-2361-4510-80f3-869dddf1805b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "L1")
 					(unit 1)
@@ -11960,7 +11960,7 @@
 			(uuid "31e6d78a-9776-454e-b87f-7d09ce202f19")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C42")
 					(unit 1)
@@ -12038,7 +12038,7 @@
 			(uuid "a3ac4387-8d2a-4437-8438-f36da9f38d97")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR015")
 					(unit 1)
@@ -12116,7 +12116,7 @@
 			(uuid "aaa180d0-826f-4250-8463-3f9145d8cac9")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR055")
 					(unit 1)
@@ -12196,7 +12196,7 @@
 			(uuid "5a03e0ea-d469-4388-b119-9b808286c690")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "D2")
 					(unit 1)
@@ -12273,7 +12273,7 @@
 			(uuid "9ac13ed8-3b34-49e8-9999-b52582fdd1f7")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR080")
 					(unit 1)
@@ -12351,7 +12351,7 @@
 			(uuid "2a43a9b7-4d6d-4a37-a38b-3bdc1715fd21")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR033")
 					(unit 1)
@@ -12428,7 +12428,7 @@
 			(uuid "83ec7278-075e-43ff-9080-d3e6239d447d")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR09")
 					(unit 1)
@@ -12510,7 +12510,7 @@
 			(uuid "79f7a314-a385-47d0-a7bf-15aefd02b4fd")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C24")
 					(unit 1)
@@ -12608,7 +12608,7 @@
 			(uuid "2bf242b6-8986-4ae2-8dbe-be6186261382")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U5")
 					(unit 1)
@@ -12686,7 +12686,7 @@
 			(uuid "385a7097-22d0-4ea0-b01f-91a7567e0898")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR088")
 					(unit 1)
@@ -12768,7 +12768,7 @@
 			(uuid "7696d00c-0ca3-498a-b5ca-8ca41e560c16")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C56")
 					(unit 1)
@@ -12850,7 +12850,7 @@
 			(uuid "020c07b7-0678-44fe-b7e0-db0fdbc91697")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C34")
 					(unit 1)
@@ -12928,7 +12928,7 @@
 			(uuid "aca89cef-ef3d-4287-a997-e2623f76b113")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR013")
 					(unit 1)
@@ -13006,7 +13006,7 @@
 			(uuid "b257ef15-7219-4d4d-b505-5a73b4065374")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR0127")
 					(unit 1)
@@ -13086,7 +13086,7 @@
 			(uuid "92d744d1-4764-47bd-a4d2-33fa02214e08")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C52")
 					(unit 1)
@@ -13166,7 +13166,7 @@
 			(uuid "b0b83fa1-b423-4341-bb79-9295b2b4beea")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C16")
 					(unit 1)
@@ -13244,7 +13244,7 @@
 			(uuid "6b5b80d0-6fa0-43b2-8c16-a670562dd8e1")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR06")
 					(unit 1)
@@ -13344,7 +13344,7 @@
 			(uuid "52a41c7c-2eca-49d9-806a-45c4accb7e3c")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U8")
 					(unit 3)
@@ -13426,7 +13426,7 @@
 			(uuid "b59157dd-8d9b-45e2-b30f-c50b571c9b47")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C33")
 					(unit 1)
@@ -13504,7 +13504,7 @@
 			(uuid "e543977b-b9ee-4c88-b24d-9589fb490a99")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR070")
 					(unit 1)
@@ -13604,7 +13604,7 @@
 			(uuid "5bcf8772-adcf-4a45-bca6-740736f948b3")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U5")
 					(unit 3)
@@ -13686,7 +13686,7 @@
 			(uuid "acf9d2af-676c-4522-a56e-3fd20fcd5339")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C15")
 					(unit 1)
@@ -13764,7 +13764,7 @@
 			(uuid "3cb5b686-fff5-4e93-8491-1d15e7038608")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR073")
 					(unit 1)
@@ -13841,7 +13841,7 @@
 			(uuid "7a97c8f4-2fa8-4d55-b479-8a8400c0a3d5")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR085")
 					(unit 1)
@@ -13919,7 +13919,7 @@
 			(uuid "a807af5f-3381-41f8-9df2-c4cf3d9e6423")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR060")
 					(unit 1)
@@ -13996,7 +13996,7 @@
 			(uuid "4aead4ec-7010-4e48-8696-cc5978dea163")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR021")
 					(unit 1)
@@ -14076,7 +14076,7 @@
 			(uuid "f984518b-7258-4943-bfa9-027ca5a284f3")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R10")
 					(unit 1)
@@ -14168,7 +14168,7 @@
 			(uuid "24fab670-7486-45cd-b10f-2d5a46a7f858")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U11")
 					(unit 1)
@@ -14250,7 +14250,7 @@
 			(uuid "09308eb8-141f-43cd-a4b1-47b096a10d4e")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R28")
 					(unit 1)
@@ -14328,7 +14328,7 @@
 			(uuid "ed255b47-8aba-4195-8cb3-b6e6053d7275")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR023")
 					(unit 1)
@@ -14410,7 +14410,7 @@
 			(uuid "606326ce-8f9a-4c18-87aa-00dc59963c2c")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C20")
 					(unit 1)
@@ -14492,7 +14492,7 @@
 			(uuid "f23fde77-467e-4018-928f-4847c34656f7")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C35")
 					(unit 1)
@@ -14574,7 +14574,7 @@
 			(uuid "555b6281-beac-4997-b16d-0c88b25fdc86")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C41")
 					(unit 1)
@@ -14672,7 +14672,7 @@
 			(uuid "2bf242b6-8986-4ae2-8dbe-be6186261384")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U7")
 					(unit 2)
@@ -14754,7 +14754,7 @@
 			(uuid "59b2286f-7ed0-4790-87a9-28408723ebfb")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C22")
 					(unit 1)
@@ -14839,7 +14839,7 @@
 			(uuid "b909ae53-cfa3-44ca-b5fc-ae0eb59e27bb")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "Y1")
 					(unit 1)
@@ -14921,7 +14921,7 @@
 			(uuid "8c42d5d4-e0e9-41f5-9289-864264b225ea")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C32")
 					(unit 1)
@@ -15001,7 +15001,7 @@
 			(uuid "d97507e4-a8bf-4a55-8270-4769963fdaed")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R12")
 					(unit 1)
@@ -15081,7 +15081,7 @@
 			(uuid "9a929d38-55d7-47c3-9995-d30abc341609")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R14")
 					(unit 1)
@@ -15159,7 +15159,7 @@
 			(uuid "e632c96a-5dce-46a7-aac9-397d24f51a18")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR054")
 					(unit 1)
@@ -15237,7 +15237,7 @@
 			(uuid "c1826fa0-fa3f-415a-9844-47468fb6e267")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "J9")
 					(unit 1)
@@ -15315,7 +15315,7 @@
 			(uuid "63341ee3-5328-4de4-89f7-ba3b2ad234bb")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR032")
 					(unit 1)
@@ -15392,7 +15392,7 @@
 			(uuid "f459b590-43fb-420a-baf8-851c98b0b29b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR022")
 					(unit 1)
@@ -15481,7 +15481,7 @@
 			(uuid "e5ccbadd-e700-44b1-b817-132f018dcdcf")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U10")
 					(unit 1)
@@ -15563,7 +15563,7 @@
 			(uuid "8a308247-b83c-42ea-b709-57593aa64868")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C31")
 					(unit 1)
@@ -15641,7 +15641,7 @@
 			(uuid "52450520-d919-4f28-b688-e1d43d91a2ca")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR019")
 					(unit 1)
@@ -15723,7 +15723,7 @@
 			(uuid "9d6a7946-ec06-4043-b2dc-fee22676462f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C26")
 					(unit 1)
@@ -15823,7 +15823,7 @@
 			(uuid "a25cf914-0f3c-47bc-8d3c-169b3d48995e")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U6")
 					(unit 3)
@@ -15901,7 +15901,7 @@
 			(uuid "8fb760f5-f0e9-4461-93b9-d879750d4457")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR030")
 					(unit 1)
@@ -15979,7 +15979,7 @@
 			(uuid "f9312ae4-73ba-4b31-816d-fc76b021f269")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR066")
 					(unit 1)
@@ -16056,7 +16056,7 @@
 			(uuid "a5b99792-57d6-4c56-85c1-457d76813d93")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR082")
 					(unit 1)
@@ -16136,7 +16136,7 @@
 			(uuid "0aa7335e-0e33-4529-b765-a20a153385d0")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R32")
 					(unit 1)
@@ -16219,7 +16219,7 @@
 			(uuid "2c400f05-b4ec-4777-a4d4-90237d7d001d")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "RV1")
 					(unit 1)
@@ -16299,7 +16299,7 @@
 			(uuid "ee403631-364a-46ad-ac4f-b5107c0e0fcc")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "D1")
 					(unit 1)
@@ -16381,7 +16381,7 @@
 			(uuid "1ddfe7b5-722c-4886-bb97-1eb62cd88cda")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R16")
 					(unit 1)
@@ -16463,7 +16463,7 @@
 			(uuid "95a05aa9-97c6-49fe-9eba-73269af83ec4")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R9")
 					(unit 1)
@@ -16545,7 +16545,7 @@
 			(uuid "24a85970-0cbd-4ffc-bd61-f8c47dad29d1")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C38")
 					(unit 1)
@@ -16627,7 +16627,7 @@
 			(uuid "435173c5-20ae-4e24-ac9e-388da8434046")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R22")
 					(unit 1)
@@ -16709,7 +16709,7 @@
 			(uuid "e9765f15-96e4-430e-be79-0890978dfa93")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C53")
 					(unit 1)
@@ -16787,7 +16787,7 @@
 			(uuid "b4036b57-d8e2-496d-96ab-18ce29d4d0d8")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR024")
 					(unit 1)
@@ -16865,7 +16865,7 @@
 			(uuid "bfbb17b9-23f9-44eb-9658-e455ff9777a8")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "J2")
 					(unit 1)
@@ -16971,7 +16971,7 @@
 			(uuid "86f98f8a-b035-443e-9ba4-6da0b15f557a")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U2")
 					(unit 1)
@@ -17049,7 +17049,7 @@
 			(uuid "c6659aa8-f2e1-4292-b5be-d3123b599dae")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR02")
 					(unit 1)
@@ -17127,7 +17127,7 @@
 			(uuid "fa753b15-682a-4d20-8cb2-e86802334a58")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR067")
 					(unit 1)
@@ -17205,7 +17205,7 @@
 			(uuid "5fe76b01-e829-4de3-960f-407b09bb5616")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR075")
 					(unit 1)
@@ -17287,7 +17287,7 @@
 			(uuid "f2792c85-ee2f-4052-b7e5-d3fdf43d9318")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C43")
 					(unit 1)
@@ -17369,7 +17369,7 @@
 			(uuid "246973cd-b037-40ff-8972-b90112181198")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C28")
 					(unit 1)
@@ -17447,7 +17447,7 @@
 			(uuid "5deeb3d4-c5b5-480d-85c1-63efb2a250f8")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR072")
 					(unit 1)
@@ -17525,7 +17525,7 @@
 			(uuid "03d9f145-a489-4821-8747-2518de898f14")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR057")
 					(unit 1)
@@ -17603,7 +17603,7 @@
 			(uuid "c4164876-68b5-45df-abd5-1a6f6a822b33")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR035")
 					(unit 1)
@@ -17683,7 +17683,7 @@
 			(uuid "b4418397-4fd4-4c49-9bcb-fcc66c249339")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R26")
 					(unit 1)
@@ -17761,7 +17761,7 @@
 			(uuid "29a76a77-a6cc-4476-a39b-60a12cb973bc")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR074")
 					(unit 1)
@@ -17839,7 +17839,7 @@
 			(uuid "ed1ca08f-6cfd-4daf-b5db-dc7fcace893b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR056")
 					(unit 1)
@@ -17922,7 +17922,7 @@
 			(uuid "9125d00d-4001-4157-ab8d-62abbf572d2e")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "J1")
 					(unit 1)
@@ -18004,7 +18004,7 @@
 			(uuid "ec8939e9-ee0a-45fc-a898-a8f87fc01f98")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C37")
 					(unit 1)
@@ -18084,7 +18084,7 @@
 			(uuid "190baf0e-69eb-47c4-ac43-231b05499d34")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R25")
 					(unit 1)
@@ -18162,7 +18162,7 @@
 			(uuid "c756f3cc-5a25-48ca-a731-48c5dbce0ac0")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR071")
 					(unit 1)
@@ -18278,7 +18278,7 @@
 			(uuid "223bea47-8406-4623-ae41-95c68dd783dc")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R23")
 					(unit 1)
@@ -18356,7 +18356,7 @@
 			(uuid "b8611881-1310-4b13-8887-20e9bc2e108d")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR059")
 					(unit 1)
@@ -18434,7 +18434,7 @@
 			(uuid "9463c6f9-06bb-4f4c-8508-c842e8b2f750")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR063")
 					(unit 1)
@@ -18514,7 +18514,7 @@
 			(uuid "551d5041-2a0d-4b09-9662-7a0bb21e5952")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R24")
 					(unit 1)
@@ -18614,7 +18614,7 @@
 			(uuid "cb0f3cee-c401-447c-9809-bcfe8ac05ac0")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U7")
 					(unit 3)
@@ -18696,7 +18696,7 @@
 			(uuid "0bdfac86-1df5-4b94-bc26-e578a3808716")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C55")
 					(unit 1)
@@ -18778,7 +18778,7 @@
 			(uuid "2e4a807c-0d0c-408c-a401-1a5857210c46")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C9")
 					(unit 1)
@@ -18864,7 +18864,7 @@
 			(uuid "bcb67aef-dd99-4019-a0b2-cef398a34f2b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "JP2")
 					(unit 1)
@@ -18942,7 +18942,7 @@
 			(uuid "0535fbd3-8543-4c71-823c-b652b589a91f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR061")
 					(unit 1)
@@ -19023,7 +19023,7 @@
 			(uuid "74276754-fcd1-40f5-b778-5911b0c2bdfc")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C23")
 					(unit 1)
@@ -19100,7 +19100,7 @@
 			(uuid "9234ba78-a376-4ed9-ba23-e219661244dd")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR079")
 					(unit 1)
@@ -19182,7 +19182,7 @@
 			(uuid "bff78998-d6ba-4fef-93b0-c553dfe2ace4")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C17")
 					(unit 1)
@@ -19259,7 +19259,7 @@
 			(uuid "38bc3c55-5921-4afa-b365-af95ea4ffd97")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR084")
 					(unit 1)
@@ -19341,7 +19341,7 @@
 			(uuid "2adb75b0-9708-4e74-9d9c-49c339b37c5e")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C58")
 					(unit 1)
@@ -19421,7 +19421,7 @@
 			(uuid "a09f98e9-671e-4a4c-bc7c-fb425c2e23b6")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R34")
 					(unit 1)
@@ -19519,7 +19519,7 @@
 			(uuid "5d9b2860-39d9-487a-9577-2584797584e0")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U6")
 					(unit 2)
@@ -19602,7 +19602,7 @@
 			(uuid "73f8f651-f79e-4b81-8f18-9292312a2855")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C12")
 					(unit 1)
@@ -19679,7 +19679,7 @@
 			(uuid "fa5b7d3f-84a7-4abf-b4bf-73e80f5e2af5")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR012")
 					(unit 1)
@@ -19761,7 +19761,7 @@
 			(uuid "93b7b030-11c2-4b48-b3f0-bfe7c425cd29")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C36")
 					(unit 1)
@@ -19839,7 +19839,7 @@
 			(uuid "3c3a72c4-fe43-4da3-a308-056426bf4e4f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR076")
 					(unit 1)
@@ -19921,7 +19921,7 @@
 			(uuid "2b158faa-0a84-4e0e-be5d-b934afa0b4bd")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R27")
 					(unit 1)
@@ -20004,7 +20004,7 @@
 			(uuid "014080bc-8ca7-49fc-a3ea-4e5fdd627a7a")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "RV2")
 					(unit 1)
@@ -20086,7 +20086,7 @@
 			(uuid "562c2755-5f4d-4c7e-a70a-e9d1f69aa73c")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R8")
 					(unit 1)
@@ -20189,7 +20189,7 @@
 			(uuid "9470b6d0-e994-4b5c-87ca-352a85b4ca95")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U9")
 					(unit 1)
@@ -20287,7 +20287,7 @@
 			(uuid "5d9b2860-39d9-487a-9577-2584797584e1")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U8")
 					(unit 2)
@@ -20370,7 +20370,7 @@
 			(uuid "90cf41dd-f17a-4089-9778-f669aad9d6cc")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U3")
 					(unit 1)
@@ -20447,7 +20447,7 @@
 			(uuid "0718ce44-4021-4276-a198-47e63c74399b")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR027")
 					(unit 1)
@@ -20524,7 +20524,7 @@
 			(uuid "f40c4b9a-f0da-46d7-855a-6addbd6a1fa9")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR086")
 					(unit 1)
@@ -20602,7 +20602,7 @@
 			(uuid "c741354c-7554-45d9-9bb7-7ade08c05fdd")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR04")
 					(unit 1)
@@ -20700,7 +20700,7 @@
 			(uuid "5d9b2860-39d9-487a-9577-2584797584e3")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "U6")
 					(unit 1)
@@ -20782,7 +20782,7 @@
 			(uuid "8b720264-676f-4e9c-81f2-267887046acf")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C13")
 					(unit 1)
@@ -20860,7 +20860,7 @@
 			(uuid "f040fac6-44d9-4c6b-907a-9f2e263a1992")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR037")
 					(unit 1)
@@ -20941,7 +20941,7 @@
 			(uuid "910263ba-da36-4888-a5ca-c0533bd35b86")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C25")
 					(unit 1)
@@ -21019,7 +21019,7 @@
 			(uuid "bdc09dde-6be9-49b7-8185-8e1d36a09175")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR017")
 					(unit 1)
@@ -21101,7 +21101,7 @@
 			(uuid "069c8df9-98c7-4938-9ad3-f94ae6f8ced1")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C39")
 					(unit 1)
@@ -21180,7 +21180,7 @@
 			(uuid "c84e12a9-b37a-4b56-9c9e-d3790aab5985")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR065")
 					(unit 1)
@@ -21259,7 +21259,7 @@
 			(uuid "018d5a17-8a36-444f-9346-1ed763af52ee")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "J3")
 					(unit 1)
@@ -21337,7 +21337,7 @@
 			(uuid "a1d5a729-38f7-41b7-923c-9251ec5ec2a4")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR03")
 					(unit 1)
@@ -21415,7 +21415,7 @@
 			(uuid "aec9190d-6d82-4e1e-9590-536d9a28227c")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR028")
 					(unit 1)
@@ -21495,7 +21495,7 @@
 			(uuid "04c0b728-8ee0-4189-9005-0fa84ecd305e")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R11")
 					(unit 1)
@@ -21577,7 +21577,7 @@
 			(uuid "3874fe5a-b573-49c6-8e8f-46872059ae89")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C27")
 					(unit 1)
@@ -21668,7 +21668,7 @@
 			(uuid "467ca319-6aa3-47a4-b106-9ed49c244f91")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "D4")
 					(unit 1)
@@ -21749,7 +21749,7 @@
 			(uuid "d7a3fce1-2099-494d-827e-14f11b11c26d")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "C19")
 					(unit 1)
@@ -21829,7 +21829,7 @@
 			(uuid "162a7357-2038-4847-8532-c7b1bee4701f")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "R17")
 					(unit 1)
@@ -21907,7 +21907,7 @@
 			(uuid "9eecaa30-345f-4bb6-9a89-4beb2b04bbf8")
 		)
 		(instances
-			(project "logicAnalyzerPCB"
+			(project "TRACE_PCB"
 				(path "/60e40069-ebc5-410a-af57-87d1e8a39a0f/b089a83a-3143-4b7d-ba8d-3f94c05d56c2/e4c0fdc9-df27-45c9-ba88-a79224b37f7d"
 					(reference "#PWR038")
 					(unit 1)
